@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #7ADFFF;
+    
+}
+section{
+    width: 1200px;
+    height: 800px;
+    
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    overflow: hidden;
+    padding: 20px;
+   
+    
+}
+.box{
+    height: 269px;
+    width: 100%;
+    background-color: #d8e4e7;
+    
+    
+}
+
+@media screen and ( width > 1200px ){
+   section{
+    grid-template-columns: repeat(4,1fr);
+   }
+ 
+}
+@media screen and ( width < 1200px ) and ( width > 450px ) {
+    section{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+

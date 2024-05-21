@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9DC783;
+
+}
+.container{
+    height: 600px;
+    max-width: 1200px;
+    margin: 32px auto;
+    background-color: white;
+    padding: 10px;
+}
+.top{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+}
+.red-box{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.bottom{
+   display: flex;
+   flex-direction: column;
+    gap: 5px;
+    height: 350px;
+    gap: 10px;
+}
+
+
+.greenbox1{
+
+    height: 235px;
+    width: 100%;
+    background-color: green;
+
+}
+
+
+
+ .greenbox{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+ }
+.dark-green{
+    height: 350px;
+     gap: 10px;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+
+}

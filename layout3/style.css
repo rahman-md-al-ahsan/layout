@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #7ADFFF;
+}
+section{
+    max-width: 1200px;
+    margin: 5% auto;
+    min-height: 800px;
+    display: grid;
+    padding: 20px;
+    gap: 10px;
+    grid-template-areas: 
+    "h h h h h j j"
+    "i i i i i j j";
+}
+
+
+
+.one{
+    grid-area: h;
+    background: #4F8EEC;
+
+}
+.two{
+    grid-area: i;
+    background: #0A1E3C;
+
+}
+.three{
+    grid-area: j;
+    background-color: #005C79;
+    
+}
+@media screen and (width < 450px){
+    section{
+        grid-template-areas: 
+        "h h h h"
+        "i i i i"
+        "j j j j";
+    }
+}
